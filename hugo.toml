@@ -22,8 +22,8 @@ palette = "tokyo-night-dark"
 # Sidebar: about/bio
 [params.about]
 title = "jerryyf"
-description = "I like computers"
-logo = "images/rice.svg"
+description = "Not a robot"
+logo = "images/berry.svg"
 
 # Sidebar: social links
 # Available icon sets:
