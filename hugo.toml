@@ -10,6 +10,11 @@ enableInlineShortcodes = true
 # See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
 ignoreErrors = ["error-remote-getjson"]
 
+# Add as module for GitHub Pages workflow
+[module]
+[[module.imports]]
+    path = 'github.com/spf13/hyde'
+
 # Automatically add content sections to main menu
 sectionPagesMenu = "main"
 
