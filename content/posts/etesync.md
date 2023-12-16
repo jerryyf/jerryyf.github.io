@@ -1,6 +1,7 @@
 ---
 title: "Self-hosting EteSync"
 date: 2023-06-24
+toc: true
 tags: ["self-hosting", "server", "privacy"]
 ---
 
