@@ -1,6 +1,6 @@
 baseURL = "https://jerryyf.github.io"
 theme = "risotto"
-title = "jerryyf"
+title = "linsomnia"
 author = "Jerry Lin"
 paginate = 3
 languageCode = "en"
