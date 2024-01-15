@@ -2,7 +2,6 @@
 title: "Basic i3 Arch Linux Setup"
 date: 2023-03-22
 lastmod: 2023-06-21
-toc: true
 tags: ["linux", "arch", "i3"]
 ---
 
