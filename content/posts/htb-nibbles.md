@@ -1,5 +1,5 @@
 ---
-title: "HackTheBox - Nibbles"
+title: "Hack The Box - Nibbles"
 date: 2023-09-10
 tags: ["security", "htb", "writeup"]
 toc: true
@@ -72,7 +72,7 @@ Finished
 ![htb-nibbles4.png](/htb-nibbles4.png)
 
 
-Notably, there is a also readme which contains specific information on what is instaled on the server and its version:
+Notably, there is a also readme which contains specific information on what is installed on the server and its version:
 
 ```
 ====== Nibbleblog ======
@@ -112,7 +112,7 @@ We can also see that there is a blacklist in place to protect against brute-forc
 
 No signs of cleartext password can be found so we try some default credentials such as admin, password, but to no avail. We could do some guesswork, since there are several mentions of `nibbles` in the title, and in `nibbles yum yum`.
 
-Fortuantely `admin:nibbles` does the trick, and we gain access to the admin dashboard.
+Fortunately `admin:nibbles` does the trick, and we gain access to the admin dashboard.
 
 ![htb-nibbles5.png](/htb-nibbles5.png)
 
