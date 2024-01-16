@@ -1,7 +1,8 @@
 ---
 title: "Hack The Box - Nibbles"
+author: jerryyf
 date: 2023-09-10
-tags: ["security", "htb", "writeup"]
+tags: ["security", "htb", "writeups"]
 ---
 
 This is my process write up on the Nibbles box from [HTB](https://www.hackthebox.com/). I will cover both the manual approach as well as the quicker approach leveraging the [metasploit](http://www.metasploit.com) framework.

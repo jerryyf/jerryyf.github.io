@@ -1,5 +1,6 @@
 ---
 title: "Self-hosting EteSync"
+author: jerryyf
 date: 2023-06-24
 tags: ["self-hosting", "server", "privacy"]
 ---

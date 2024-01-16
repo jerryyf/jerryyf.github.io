@@ -1,5 +1,6 @@
 ---
 title: "Basic i3 Arch Linux Setup"
+author: jerryyf
 date: 2023-03-22
 lastmod: 2023-06-21
 tags: ["linux", "arch", "i3"]
