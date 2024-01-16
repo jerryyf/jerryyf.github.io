@@ -2,10 +2,13 @@
 title: "Self-hosting EteSync"
 author: jerryyf
 date: 2023-06-24
+toc: true
 tags: ["self-hosting", "server", "privacy"]
 ---
 
 [EteSync](https://www.etesync.com/) is an open source, end-to-end encrypted sync solution for contacts, calendars, tasks and notes. They offer their own SaaS, on a subscription-based model. [Etebase](https://github.com/etesync/server), their open source backend, can be used as a library for developing secure E2EE applications, or to host your own Etebase instance. In this post I cover my setup process and experience in hosting my own server (on a VPS).
+
+<!--more-->
 
 ## Getting started
 

@@ -1,58 +1,61 @@
 baseURL = "https://jerryyf.github.io"
-theme = "paper"
-title = "linsomnia"
-author = "Jerry Lin"
-paginate = 3
 languageCode = "en"
+theme = "anubis"
+title = "linsomnia"
+paginate = 3
 DefaultContentLanguage = "en"
-enableInlineShortcodes = true
-# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
-# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
-ignoreErrors = ["error-remote-getjson"]
 
-# Automatically add content sections to main menu
-sectionPagesMenu = "main"
-
-[params]
-  # color style
-  color = 'linen'                           # linen, wheat, gray, light
-
-  # header social icons
-  # twitter = 'YOUR_TWITTER_ID'               # twitter.com/YOUR_TWITTER_ID
-  github = 'jerryyf'                 # github.com/YOUR_GITHUB_ID
-  # instagram = 'YOUR_INSTAGRAM_ID'           # instagram.com/YOUR_INSTAGRAM_ID
-  linkedin = 'jerryyf1'             # linkedin.com/in/YOUR_LINKEDIN_ID
-  # mastodon = 'YOUR_MASTODON_LINK'           # e.g. 'https://mastodon.instance/@xxx'
-  rss = true                                # show rss icon
-
-  # home page profile
-  avatar = 'https://openmoji.org/data/color/svg/1F317.svg'                 # gravatar email or image url
-  name = 'jerryyf'
-  bio = 'Not a robot'
-
-  # misc
-  disableHLJS = true                        # disable highlight.js
-  disablePostNavigation = false             # disable post navigation
-  monoDarkIcon = false                      # show monochrome dark mode icon
-  # gravatarCdn = 'GRAVATAR_CDN_LINK'         # e.g. 'https://cdn.v2ex.com/gravatar/'
-  # graphCommentId = "YOUR_GRAPH_COMMENT_ID"  # use graph comment (disqus alternative)
-  math = true                               # enable KaTeX math typesetting globally
+[author]
+  name = "Jerry Lin"
 
 [menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    title = "Posts"
+    url = "/posts/"
+    weight = 1
 
   [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 10
+    weight = 2
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    title = "Posts"
+    url = "/tags/"
+    weight = 3
+
+[params]
+  author = "Jerry Lin"
+  description = "Not a robot"
+  dateFormat = "02-01-2006"
+  paginationSinglePost = true
+  style = "auto"
+  mainSections = [ "posts" ]
+  sectionsWithFullContentOnListPage = [ "notes" ]
+  readMore = true
+  readNextPosts = 5
+  disableSummary = false
+  toc = true
+  tocWordCount = 300
+  copyCodeButton = true
+  rssAsSocialIcon = false
+  mathjax = false
+
+  [[params.social]]
+  id = "github"
+  url = "https://github.com/jerryyf"
 
 [taxonomies]
-category = "categories"
-tag = "tags"
-series = "series"
+  category = "categories"
+  tag = "tags"
+  series = "series"
 
 [privacy]
-
   [privacy.vimeo]
     disabled = false
     simple = true
@@ -71,7 +74,6 @@ series = "series"
     privacyEnhanced = true
 
 [services]
-
   [services.instagram]
     disableInlineCSS = true
 

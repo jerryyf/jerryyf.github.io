@@ -7,6 +7,8 @@ tags: ["security", "htb", "writeups"]
 
 This is my process write up on the Nibbles box from [HTB](https://www.hackthebox.com/). I will cover both the manual approach as well as the quicker approach leveraging the [metasploit](http://www.metasploit.com) framework.
 
+<!--more-->
+
 ## Recon - nmap
 
 First in order to gather some information on the server, a quick nmap scan `nmap -sV -sC <target>` reveals some useful information. `-sV` is used here for service detection open ports; `-sC` runs the most common scripts - this is effectively the `default` category of scripts, more information about this can be found on [Nmap's documentation](https://nmap.org/book/nse-usage.html).
@@ -270,7 +272,7 @@ And that gets us the root shell. Let's proceed to read `root.txt`:
     # cat root.txt
     de5e5d6619862a8aa5b9b212314e0cdd
 
-## Problems faced
+## Troubleshooting
 
 I was stuck on trying to upload a file and getting a shell for a long time. It appears to be a problem with the HTB servers, since changing VPN server and resetting the target machine did the trick, although this took a few attempts. I assume it is most likely due to a lot of other users attempting to do the same thing at once.
 
