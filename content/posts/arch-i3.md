@@ -6,17 +6,11 @@ toc: true
 tags: ["linux", "arch", "i3"]
 ---
 
-
-After I botched my Manjaro i3 installation and some further [readings](https://manjarno.snorlax.sh/), I dove deeper into other Arch-based alternatives. Specifically, I wanted a pre-configured tiling window manager setup out of the box as I don't want to spend a lot of time customising and optimising my system.
+Here I document my basic setup process for any installation. Please note that this is what works for me and can differ depending on hardware. This post is retained for archival purposes.
 
 <!--more-->
 
-I tried out a couple distros:
-
-- [ArcoLinux](https://arcolinux.com/) is a great distro to get started with ricing Linux. There are different ISOs, suited for different levels of customisation and technical knowledge. ArcoLinuxD comes with a large range of configured desktop environments including GNOME, XFCE, Budgie, Openbox, i3, BSPWM, DWM and more, as well as their custom "tweak tool". Good for getting started and playing around with.
-- [EndeavourOS](https://endeavouros.com/) comes with a good range of fully themed yet minimal desktop environments including GNOME, XFCE, KDE Plasma, i3 and Sway. I found it to be a lightweight option with a good balance of customisation and functionality. The out of the box i3 config has some interesting navigation keybindings though - `jkbo` - I change this to `hjkl` for consistency with Vim keybindings.
-
-Here I document my basic setup process for any installation. Please note that this is what works for me and can differ depending on hardware.
+After I botched my Manjaro i3 installation and some further [readings](https://manjarno.snorlax.sh/), I dove deeper into other Arch-based alternatives. I wanted a pre-configured tiling window manager setup out of the box as I didn't want to spend a lot of time customising and optimising my system.
 
 ![arch-ss.png](/arch-ss.png)
 

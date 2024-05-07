@@ -2,7 +2,7 @@ baseURL = "https://jerryyf.github.io"
 languageCode = "en"
 theme = "anubis"
 title = "linsomnia"
-paginate = 3
+paginate = 10
 DefaultContentLanguage = "en"
 
 [author]
@@ -25,9 +25,16 @@ DefaultContentLanguage = "en"
   [[menu.main]]
     identifier = "tags"
     name = "Tags"
-    title = "Posts"
+    title = "Tags"
     url = "/tags/"
     weight = 3
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    title = "Projects"
+    url = "/projects/"
+    weight = 4
 
 [params]
   author = "Jerry Lin"
