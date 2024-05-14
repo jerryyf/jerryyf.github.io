@@ -1,5 +1,5 @@
 ---
-title: "Phshing and Digital Hygiene"
+title: "Phishing and Digital Hygiene"
 author: jerryyf
 date: 2024-05-07
 toc: true
