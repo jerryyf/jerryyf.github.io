@@ -18,14 +18,15 @@ I had hoped most of this was common knowledge, but perhaps not, so hope you may 
     - If it's a link ending with `.top`, `.info`, `.life` - don't open it. These are cheap top level domains (TLDs) that can be mass purchased for phishing purposes.
 - Take the [Google Phishing Quiz](https://phishingquiz.withgoogle.com/) - quick and helpful for learning how to identify email phishing, but shows how scammers attempt to cleverly obfuscate malicious URLS with legitimate looking ones. Don't forget to check that link before opening it.
 - **Use a password manager.**
-	- Bitwarden - probably the most widely used and trusted open source password manager. Great browser integrations and secure E2EE cloud sync.
-	- KeePassXC - good offline option for the extra paranoid. Features browser integration, password generation, and strong database encryption.
+	- [Bitwarden](https://bitwarden.com/) - probably the most widely used and trusted open source password manager. Great browser integrations and secure E2EE cloud sync.
+	- [KeePassXC](https://keepassxc.org/) - good offline option for the extra paranoid. Features browser integration, password generation, and strong database encryption.
 - Check if your email address has been in a data breach on [haveibeenpwned](https://haveibeenpwned.com). If it has, your password for whatever service was breached is now in database dumps on publicly accessible forums. Therefore,
 	- Change your passwords. Ideally to something resilient to brute-force and dictionary attacks 
 		- This is why a password manager is perfect - generate different strong passwords for every service.
 	- Never reuse passwords - one account password being leaked means all your accounts become at risk
 - **Enable TOTP MFA for as many services as you can (must for password manager).**
 	- Cannot be stressed enough - even if your login details are compromised, an extra layer of authentication is required. Avoid SMS and email MFA, go for TOTP using an authenticator app.
+	- [Aegis Authenticator](https://getaegis.app/) - a nice and secure, feature-rich open source MFA token manager app for Android
 
 ## Phishing
 
@@ -88,4 +89,4 @@ Unfortunately it seems true that a large majority use an ad-blocker that receive
 
 ## Closing words
 
-Feel free to reach out to me if you would like to know more about anything covered in this post. I have only scratched the surface on privacy and security here, and I am happy to share further insights in the future.
+Feel free to reach out to me if you would like to know more about anything covered in this post. I have only scratched the surface on privacy and security here, and I am always happy to share my insights.
