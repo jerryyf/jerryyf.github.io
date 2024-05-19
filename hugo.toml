@@ -1,68 +1,56 @@
 baseURL = "https://jerryyf.github.io"
+# title = "Hugo Themes"
+author = "Jerry Lin"
+paginate = 3
 languageCode = "en"
-theme = "anubis"
-title = "linsomnia"
-paginate = 10
 DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
+# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
+ignoreErrors = ["error-remote-getjson"]
 
-[author]
-  name = "Jerry Lin"
+# ------------------------------
+theme = "paper"
+title = "linsomnia"
+
+[params]
+  color = 'linen'
+
+  github = 'jerryyf'
+
+  name = 'Jerry'
+  bio = 'hi'
+# ------------------------------
+
+# needed to  render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+#  [markup.highlight]
+#    lineNos = true
 
 [menu]
-  [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    title = "Posts"
-    url = "/posts/"
-    weight = 1
 
   [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 2
-
-  [[menu.main]]
-    identifier = "tags"
-    name = "Tags"
-    title = "Tags"
-    url = "/tags/"
-    weight = 3
+    weight = 10
 
   [[menu.main]]
     identifier = "projects"
     name = "Projects"
-    title = "Projects"
     url = "/projects/"
-    weight = 4
-
-[params]
-  author = "Jerry Lin"
-  description = "Not a robot"
-  dateFormat = "02-01-2006"
-  paginationSinglePost = true
-  style = "auto"
-  mainSections = [ "posts" ]
-  sectionsWithFullContentOnListPage = [ "notes" ]
-  readMore = true
-  readNextPosts = 5
-  disableSummary = false
-  toc = true
-  tocWordCount = 300
-  copyCodeButton = true
-  rssAsSocialIcon = false
-  mathjax = false
-
-  [[params.social]]
-  id = "github"
-  url = "https://github.com/jerryyf"
+    weight = 10
 
 [taxonomies]
-  category = "categories"
-  tag = "tags"
-  series = "series"
+category = "categories"
+tag = "tags"
+series = "series"
 
 [privacy]
+
   [privacy.vimeo]
     disabled = false
     simple = true
@@ -81,11 +69,9 @@ DefaultContentLanguage = "en"
     privacyEnhanced = true
 
 [services]
+
   [services.instagram]
     disableInlineCSS = true
 
   [services.twitter]
     disableInlineCSS = true
-
-[markup.goldmark.renderer]
-unsafe = true
