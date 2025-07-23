@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "change your online habits"
+title: "Change Your Online Habits"
 date: 2025-06-21
 categories: privacy
 ---
