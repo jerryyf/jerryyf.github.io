@@ -2,7 +2,6 @@
 layout: post
 title: "Setting up a Matrix Dendrite Homeserver on AWS Lightsail"
 date: 2024-03-08
-categories: linux servers
 ---
 
 This post serves as a reference for a project. I will go over the steps taken to setup a self-hosted [Matrix](https://matrix.org/) homeserver, running Dendrite on AWS Lightsail with minimal resources.
