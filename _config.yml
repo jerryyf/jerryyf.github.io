@@ -21,7 +21,7 @@
 title: jerryyf's blog
 email: contact@jerryyf.dev
 description: >- # this means to ignore newlines until "baseurl:"
-  Exploring security, DevOps, and AI.
+  Exploring InfoSec, DevOps, and AI.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "jerryyf.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: jerryyf
